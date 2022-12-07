@@ -29,16 +29,24 @@ body {
 }
 
 h1 {
-  margin: 0;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
+  color: #16BABA;
+  height: 2em;
 }
 
 h2 {
+  font-size: 1.625rem;
   font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  margin-left: 30px
 }
 
 .top-cloud{
@@ -52,4 +60,40 @@ h3 {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.image-cropper {
+  width: 25%;
+  height: 25%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+}
+
+.timothee {
+  width: 25%;
+  height: 25%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+}
+
+.footer-link {
+  font-family: 'Comic', sans-serif;
+  color: #11999E;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+.skill-text {
+  margin-left: 30px;
+  text-align: left;
 }
